@@ -1,15 +1,14 @@
 /*
  * A 'fork' of the adalight code, with a nice case statement.
  *
- * Tested with the LPD6803 50 led string
- * should work with the WS2801 as well
+ * Tested with the LM16716 100 led string
  */
 #include "FastLED.h"
 
 #define NUM_LEDS 100
 /*
- * pin 11 -> blue  for the LPD6803 'yellow' for the WS2801 string
- * pin 13 -> green for the LPD6803 'green' for the WS2801 string
+ * pin 11 -> green  for the SM16716
+ * pin 13 -> blue for the SM16716
  */
 
 // Data pin that led data will be written out over
